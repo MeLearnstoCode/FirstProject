@@ -10,7 +10,7 @@ body{
 }
 .navigation{
 	margin: auto;
-	position: fixed;
+	
 }
 
 button{
@@ -100,6 +100,12 @@ width: 80%;
 		margin: auto;
 		border: thin;
 
+	}
+
+	.navigation {
+		width: 50%;
+		margin: auto;
+		border: thin;
 	}
 	.wrapper{
 		display:block;
