@@ -1,0 +1,143 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	background-image: url(img.jpg);
+	background-repeat: repeat;
+	background-attachment: scroll;
+
+}
+
+/*.navigation{
+	margin:auto;
+	border: 10px;
+	padding: 30px;
+	background-color: #FFDAB9;
+	border-color: #008B8B;
+	text-align: center;
+
+}*/
+
+.navigation{
+	margin: auto;
+	position: fixed;
+}
+
+button{
+	background-color: #FFDAB9;
+	font-style: bold;
+	color: #008B8B;
+	font-size:20px;
+	border-color: #008B8B;
+	border-style: dashed;
+
+}
+
+button:hover{
+	text-decoration: underline;
+
+}
+
+	
+
+
+.info{
+	margin:auto;
+	width: 50%;
+	border: 10px;
+	padding: 30px;
+	background-color: #FFDAB9;
+	border-color: #008B8B;
+	border-style: dashed;
+	font-style: bold;
+	color: #008B8B;
+	text-align: center;
+}
+
+.ContactInfo{
+	margin:auto;
+	width: 50%;
+	border: 10px;
+	padding: 30px;
+	background-color: #FFDAB9;
+	border-color: #008B8B;
+	border-style: dashed;
+	font-style: bold;
+	color: #008B8B;
+	text-align: center;
+
+}
+
+.contact{
+
+	font-style: bold;
+	color: #008B8B;
+	text-align: center;
+}
+
+.contact:hover{
+	text-decoration: underline;
+	ont-style: bold;
+	color: #008B8B;
+	text-align: center;
+
+}
+.gallery{
+	margin:auto;
+	width: 50%;
+	border: 10px;
+	padding: 30px;
+	background-color: #FFDAB9;
+	border-color: #008B8B;
+	border-style: dashed;
+	font-style: bold;
+	color: #008B8B;
+	text-align: center;
+}
+
+
+p
+{
+	border-style: dashed;
+	font-family: 'Calibri', Candara;
+	padding: 30px;
+	background-color: #FFDAB9;
+	color: #008B8B;
+	font-size: 20px
+	margin:auto;
+}
+
+a.specs{
+	background-color: 	#FFD700;
+	color:red;
+	text-decoration: none;
+}
+a.specs:hover{
+	text-decoration: underline;
+	font-size: 40px;
+}
+@media all and (max-width: 400px) {
+	body {
+		background-image:none;
+		background-color: #00FFFF;
+	}
+
+	.info{
+		width: 90%;
+		margin: auto;
+		border: thin;
+
+	}
+	span{
+		display:none;
+	}
+	.video{
+		display:none;
+	}
+	.gallery{
+	width: 90%;
+		margin: auto;
+		border: thin;
+		text-align: center;	
+	}

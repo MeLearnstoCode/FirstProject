@@ -1,0 +1,133 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	background-image: url(img.jpg);
+	background-repeat: repeat;
+	background-attachment: scroll;
+
+}
+.navigation{
+	margin: auto;
+	position: fixed;
+}
+
+button{
+	background-color: #FFDAB9;
+	font-style: bold;
+	color: #008B8B;
+	font-size:20px;
+	border-color: #008B8B;
+	border-style: dashed;
+
+}
+
+button:hover{
+	text-decoration: underline;
+
+}
+.welcome{
+	margin:auto;
+	width: 50%;
+	border: 10px;
+	padding: 30px;
+	background-color: #FFDAB9;
+	border-color: #008B8B;
+	border-style: dashed;
+	font-style: bold;
+	color: #008B8B;
+	text-align: center;
+
+}
+.wrapper{
+	width:982px;
+	margin: 30px auto;
+	text-align: center;
+}
+img{
+		width:30%;
+		height:auto;
+
+	}
+
+/*old code i don't pla to use
+.wrapper{
+width: 80%;
+	margin: 0 10%;}
+*/
+/*img{
+	padding:25px;
+}*/
+/*.container1{
+	float:left;
+	margin:auto;
+	width:33.3%;
+	position:relative;
+	left:50px;
+}
+.container2{
+	float:left;
+	margin:auto;
+	width:33.3%;
+	position:relative;
+	left:50px;
+}
+
+.container3{
+	float:left;
+	margin:auto;
+	width:33.3%;
+	position:relative;
+	left:50px;}
+
+	.centerthis{
+		display:block;
+		padding:25px;
+	}*/
+
+
+
+
+@media screen and (max-width: 400px) {
+	body {
+		background-image:none;
+		background-color: #00FFFF;
+	}
+
+	.info{
+		width: 50%;
+		margin: auto;
+		border: thin;
+
+	}
+	.wrapper{
+		display:block;
+		width:90%;
+
+
+	}
+	img{
+		margin-bottom: 10px;
+		width:100%;
+	}
+
+/*.container1{
+		width:100%;
+		clear:left;
+		margin:auto;
+		display:block;
+	}
+	.container2{
+		width:100%;
+		clear:left;
+		margin:auto;
+		display:block;
+	}
+	.container3{
+		width:100%;
+		clear:left;
+		margin:auto;
+		display:block;
+	} */
+	
