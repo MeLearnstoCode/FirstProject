@@ -22,7 +22,7 @@ body{
 .navigation{
 	margin: auto;
 	position: fixed;
-	background-color: yellow;
+	
 }
 
 button{
@@ -132,6 +132,12 @@ a.specs:hover{
 	}
 	.ContactInfo{
 		width: 90%;
+		margin: auto;
+		border: thin;
+	}
+
+	.navigation {
+		width: 50%;
 		margin: auto;
 		border: thin;
 	}
