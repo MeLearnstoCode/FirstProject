@@ -22,6 +22,7 @@ body{
 .navigation{
 	margin: auto;
 	position: fixed;
+	background-color: yellow;
 }
 
 button{
