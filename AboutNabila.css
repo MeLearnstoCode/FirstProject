@@ -129,6 +129,11 @@ a.specs:hover{
 		border: thin;
 
 	}
+	.ContactInfo{
+		width: 90%;
+		margin: auto;
+		border: thin;
+	}
 
 	span{
 		display:none;
