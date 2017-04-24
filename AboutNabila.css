@@ -43,16 +43,29 @@ button:hover{
 
 
 .info{
+	display:block;
 	margin:auto;
 	width: 50%;
 	border: 10px;
-	padding: 30px;
+	padding:30px;
 	background-color: #FFDAB9;
 	border-color: #008B8B;
 	border-style: dashed;
 	font-style: bold;
 	color: #008B8B;
 	text-align: center;
+}
+
+.bio
+{	
+	display: block;
+	border-style: dashed;
+	font-family: 'Calibri', Candara;
+	padding: 30px;
+	background-color: #FFDAB9;
+	color: #008B8B;
+	font-size: 20px;
+	margin:100px;
 }
 
 .ContactInfo{
@@ -78,13 +91,13 @@ button:hover{
 
 .contact:hover{
 	text-decoration: underline;
-	ont-style: bold;
+	font-style: bold;
 	color: #008B8B;
 	text-align: center;
 
 }
 .gallery{
-	margin:auto;
+	margin: 100px auto;
 	width: 50%;
 	border: 10px;
 	padding: 30px;
@@ -94,19 +107,11 @@ button:hover{
 	font-style: bold;
 	color: #008B8B;
 	text-align: center;
+	justify-content: center;
 }
 
 
-p
-{
-	border-style: dashed;
-	font-family: 'Calibri', Candara;
-	padding: 30px;
-	background-color: #FFDAB9;
-	color: #008B8B;
-	font-size: 20px
-	margin:auto;
-}
+
 
 a.specs{
 	background-color: 	#FFD700;
